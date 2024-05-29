@@ -1,4 +1,4 @@
-import { somar } from '../src/calculadora';
+const { somar } = require('../src/calculadora');
 
 test('Somar dois números', () => {
     expect(somar(2, 3)).toBe(5);
